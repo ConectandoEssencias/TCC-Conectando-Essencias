@@ -119,6 +119,9 @@ h2{
     font-family: var(--font-pequena);
     margin-top: 70px;
 }
+.destaque-inicio2{
+    display: flex;
+}
 
 /*fade-inFim do Inicio*/
 
