@@ -1,0 +1,73 @@
+@media screen and (max-width: 768px) {
+
+.imagelogo{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+    
+    .header{
+        position:absolute;
+        height: 100%;
+        width: 100%;
+    }
+
+    .inicio{
+        max-width: 768px;
+    }
+
+    .titulo-inicio{
+        font-size: 30px;
+        line-height: 50px;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+.destaque-inicio{
+    line-height: 30px;
+    font-size: 28px;
+
+
+}
+
+.destaque-inicio2{
+    font-size: 35px;
+    line-height: 2px;
+}
+
+.paragrafo-inicio p{
+    font-size: 20px;
+    max-width: 350px;
+}
+
+.social-media-buttons{
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.inicio-sobre {
+    max-width: 768;
+}
+
+.titulo-equipe h1{
+    font-size: 40px;
+}
+
+.paragrafo-equipe p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#btn-mobile{
+    display: block;
+}
+#menu{
+    display: none;
+}
+}
+@media (max-width: 480px) {
+    .destaque-inicio {
+        font-size: 24px; 
+        line-height: 28px; 
+    }
+}
