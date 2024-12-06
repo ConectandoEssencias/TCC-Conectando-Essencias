@@ -98,7 +98,6 @@ a{
     font-size: 43px;
     font-family: var(--font-grande);
     font-weight: normal;
-    line-height: 30px;
     margin-top: 150px;
 }
 
@@ -121,6 +120,7 @@ h2{
 }
 .destaque-inicio2{
     display: flex;
+    justify-content: center;
 }
 
 /*fade-inFim do Inicio*/
