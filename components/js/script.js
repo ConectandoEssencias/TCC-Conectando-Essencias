@@ -14,6 +14,21 @@ function toggleMenu(event) {
     event.currentTarget.setAttribute('aria-label', 'Abrir Menu');
   }
 }
+function closeMenu() {
+  const nav = document.getElementById('nav');
+  const menu = document.getElementById('menu');
+  nav.classList.remove('active');
+  menu.classList.remove('active');
+  btnMobile.setAttribute('aria-expanded', 'false');
+  btnMobile.setAttribute('aria-label', 'Abrir Menu');
+}
+btnMobile.addEventListener('click', toggleMenu);
+btnMobile.addEventListener('touchstart', toggleMenu);
 
-btnMobile.addEventListener('click', toggleMenu);//
+const menuLinks = document.querySelectorAll('#menu a');
+menuLinks.forEach(link => {
+  link.addEventListener('click', closeMenu);
+});
+
+btnMobile.addEventListener('click', toggleMenu);
 btnMobile.addEventListener('touchstart', toggleMenu);
